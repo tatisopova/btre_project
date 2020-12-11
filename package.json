@@ -1,0 +1,4 @@
+"devDependencies": {
+        "source-map-loader": "^1.0.0",
+        ...
+      }
