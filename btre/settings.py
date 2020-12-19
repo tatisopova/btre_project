@@ -139,12 +139,6 @@ MESSAGES_TAGS = {
     50: 'critical',
 }
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'tatisopova@gmail.com'
-EMAIL_HOST_PASSWORD = 'hi'
-EMAIL_USE_TLS = True
-
 try:
     from .local_settings import *
 except ImportError:
